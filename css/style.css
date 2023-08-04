@@ -179,13 +179,13 @@ img {
 /* main */
 
 main {
-    background: rgb(0,0,255);
-    background: radial-gradient(circle, rgba(0,0,255,1) 18%, rgba(224,19,78,1) 83%);
+    background: rgb(253,29,29);
+    background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(131,58,180,1) 50%, rgba(252,176,69,1) 100%);
 }
-
 /* main-top */
 
 .h1-menu {
+    color: #fff;
     display: flex;
     justify-content: space-between;
 }
@@ -212,6 +212,7 @@ main {
 }
 
 .arrival-h1 {
+    color: #fff;
     display: flex;
     justify-content: space-between;
 }
@@ -231,7 +232,7 @@ main {
 
 .movie-people-link {
     font-size: 18px;
-    color: #111827;
+    color: #fff;
     font-weight: bold;
     margin-bottom: 12px;
     text-decoration: none;
@@ -272,6 +273,7 @@ main {
 /* Exclusive videos */
 
 .videos-h1 {
+    color: #fff;
     display: flex;
     justify-content: space-between;
 }
@@ -290,7 +292,7 @@ main {
 }
 
 .videos-li a {
-    color: #000;
+    color: #fff;
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
@@ -316,6 +318,7 @@ main {
 /* casts */
 
 .casts-h1 {
+    color: #fff;
     display: flex;
     justify-content: space-between;
 }
@@ -324,7 +327,7 @@ main {
     margin: 0;
     padding: 0;
     display: flex;
-    margin-bottom: 120px;
+    padding-bottom: 60px;
     list-style-type: none;
 }
 
@@ -335,7 +338,7 @@ main {
 }
 
 .casts-li a{
-    color: #000;
+    color: #fff;
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
@@ -353,16 +356,23 @@ main {
 
 /* footer */
 
+footer {
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
 .foot-hr {
     margin: 0;
     border: 0;
     padding: 0;
     height: 5px;
     width: 800px;
+    display: flex;
     border-radius: 10px;
     margin-bottom: 50px;
     align-items: center;
     background: rgb(0,2,255);
+    transform: translateX(180px);
     background: linear-gradient(90deg, rgba(0,2,255,1) 20%, rgba(190,18,60,1) 65%);
 }
 
@@ -397,7 +407,7 @@ main {
 
 .links a {
     display: block;
-    color: black;
+    color: #fff;
     margin-left: 48px;
     text-decoration: none;
 }
@@ -531,7 +541,7 @@ main {
 
 .imbd p {
     margin: 0;
-    color: #000;
+    color: #fff;
     font-size: 18px;
     font-weight: bold;
     margin-right: 20px;
