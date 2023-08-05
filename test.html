@@ -1,21 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Shifting Background Image</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-image: url("http://127.0.0.1:5500/img/Poster.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            height: 100vh; /* Ensure body takes up full viewport height */
-            background-position: center 0; /* Start with the image centered horizontally */
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="css/test.css">
 </head>
 <body>
-    <!-- Your page content goes here -->
+    <!-- Header Section -->
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer | Designer</p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Write a brief introduction about yourself here. Mention your skills, interests, and any relevant experiences.
+            </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <!-- Add your project cards here with images, descriptions, and links -->
+            <!-- Example:
+            <div class="project-card">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Description of Project 1.</p>
+                <a href="#">Live Demo</a>
+                <a href="#">GitHub</a>
+            </div>
+            -->
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <!-- Add a contact form or your contact information here -->
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
-
